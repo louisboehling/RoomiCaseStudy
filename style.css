@@ -10,6 +10,11 @@ p {
     max-width: 100%;
 }
 
+#phoneImage {
+    max-width: 70%;
+    padding-bottom: 70px;
+}
+
 #contentArea {
     padding: 110px 0px 110px 0px;
 }
