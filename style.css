@@ -1,0 +1,67 @@
+h1 {
+    font-family: "Bold";
+}
+
+p {
+    font-family: "Regular";
+}
+
+#image {
+    max-width: 100%;
+}
+
+#contentArea {
+    padding: 110px 0px 110px 0px;
+}
+
+/* fonts */
+
+@font-face{
+    font-family: 'Light';
+    src: url('assets/fonts/avenir-next-light.ttf'), url('assets/fonts/avenir-next-light.ttf') format('ttf');
+}
+
+@font-face{
+    font-family: 'Bold';
+    src: url('assets/fonts/avenir-next-demi-bold.ttf'), url('assets/fonts/avenir-next-demi-bold.ttf') format('ttf');
+}
+
+@font-face{
+    font-family: 'Regular';
+    src: url('assets/fonts/avenir-next-regular.ttf'), url('assets/fonts/avenir-next-regular.ttf') format('ttf');
+}
+
+/* full wdith commands */
+
+html, body {
+    height: 100%;
+  }
+
+.intro {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background: #84A2F7;
+  }
+  
+.intro-text {
+    color: x;
+    max-width: 600px;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+.cf:before,
+.cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  
+.cf:after {
+      clear: both;
+  }
+
+.cf {
+      *zoom: 1;
+  }
