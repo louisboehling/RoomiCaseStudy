@@ -1,9 +1,8 @@
-body {
-    background: #F7F7F7;
-}
+
 
 h1 {
     font-family: "Bold";
+    
 }
 
 h2 {
@@ -33,7 +32,7 @@ p {
 }
 
 #quote1 {
-    background-color: ;
+    background-color: white;
     border-style: solid;
     border-color: #D9E3FF;
     border-width: 6px;
@@ -44,7 +43,7 @@ p {
 
 
 #quote2 {
-    background-color: ;
+    background-color: white;
     border-style: solid;
     border-color: #FBF0E2;
     border-width: 6px;
@@ -63,6 +62,21 @@ p {
 #footer {
     background: #C2D1FB;
     height: 300px; 
+}
+
+#demoButton {
+    font-family: "Bold";
+    background-color: #FBF0E2;
+    border-style: solid;
+    border-color: #EDC99B;
+    border-width: 6px;
+    padding: 20px;
+    margin-bottom: 100px;
+    width: 300px;
+}
+
+#demoButton a {
+    color: #333333;
 }
 
 /* fonts */
