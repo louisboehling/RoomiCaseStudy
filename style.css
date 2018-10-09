@@ -2,6 +2,10 @@ h1 {
     font-family: "Bold";
 }
 
+h2 {
+    font-family: "Bold";
+}
+
 p {
     font-family: "Regular";
 }
@@ -10,13 +14,38 @@ p {
     max-width: 100%;
 }
 
+#bottomImage {
+    max-width: 100%;
+    padding-bottom: 110px;
+}
+
 #phoneImage {
     max-width: 70%;
-    padding-bottom: 70px;
+    padding-bottom: 90px;
 }
 
 #contentArea {
     padding: 110px 0px 110px 0px;
+}
+
+#quote1 {
+    background-color: ;
+    border-style: solid;
+    border-color: #D9E3FF;
+    border-width: 6px;
+    padding: 20px;
+    margin-top: 90px;
+}
+
+
+
+#quote2 {
+    background-color: ;
+    border-style: solid;
+    border-color: #FBF0E2;
+    border-width: 6px;
+    padding: 20px;
+    margin-top: 90px;
 }
 
 /* fonts */
@@ -46,7 +75,7 @@ html, body {
     height: 100%;
     width: 100%;
     display: table;
-    background: #84A2F7;
+    background: #C2D1FB;
   }
   
 .intro-text {
