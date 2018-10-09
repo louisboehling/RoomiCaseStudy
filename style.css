@@ -48,6 +48,14 @@ p {
     margin-top: 90px;
 }
 
+#frontImage {
+    position: absolute;
+    left: -10px;
+    top: 500px;
+    z-index: 2000;
+    
+}
+
 /* fonts */
 
 @font-face{
