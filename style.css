@@ -1,3 +1,7 @@
+body {
+    background: #F7F7F7;
+}
+
 h1 {
     font-family: "Bold";
 }
@@ -54,6 +58,11 @@ p {
     top: 500px;
     z-index: 2000;
     
+}
+
+#footer {
+    background: #C2D1FB;
+    height: 300px; 
 }
 
 /* fonts */
